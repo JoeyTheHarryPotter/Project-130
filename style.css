@@ -1,0 +1,39 @@
+body{
+    background-size: cover;
+}
+
+.heading{
+    font-size: 30px;
+    width: 100%;
+    margin: 0px;
+}
+
+.note{
+    font-size: 20px;
+    color: yellow;
+}
+
+.div_song_name{
+    width: 200px;
+    border-radius: 100px;
+}
+
+#song{
+    font-size: 25px;
+    margin: 15px;
+}
+
+canvas{
+    border: 5px dashed royalblue;
+    border-radius: 20px;
+    margin-top: 75px;
+    box-shadow: 5px 5px 5px rgb(98, 39, 146);
+    animation-name: boxshadowcolorchange;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes boxshadowcolorchange{
+    from{box-shadow: 5px 5px 5px rgb(98, 39, 146);}
+    to{box-shadow: 5px 5px 5px rgb(156, 40, 160);}
+}
